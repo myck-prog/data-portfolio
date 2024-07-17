@@ -3099,6 +3099,7 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
+
 /* Pagination */
 
 	.pagination {
@@ -4687,3 +4688,42 @@ input, select, textarea {
 		}
 
 	}
+/* Icon */
+.tableau-icon {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #FFFFFF; /* Background color similar to LinkedIn logo */
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+  }
+  
+  .tableau-logo {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+  }
+  
+  .tableau-icon .label {
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #000;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	white-space: nowrap;
+	z-index: 10;
+  }
+  .tableau-icon:hover{
+	background-color: #2596be; 
+  }
+  .tableau-icon:hover .label {
+	display: block;
+	
+  }
+  
